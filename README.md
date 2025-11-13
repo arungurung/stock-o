@@ -34,3 +34,26 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+## Stack
+
+This project uses the following stack:
+
+- [Next.js](https://nextjs.org): a React-based framework for building server-rendered, statically generated, and performance-optimized web applications.
+- [Stack Auth](https://www.stackauth.com): a platform for building authentication and authorization for web applications.
+- [Tailwind CSS](https://tailwindcss.com): a utility-first CSS framework for building custom user interfaces.
+- [NeonDB](https://neondatabase.io): a serverless, real-time database for building scalable and secure web applications.
+
+## Environment Variables
+
+This project uses environment variables to store sensitive information such as API keys. You should create a `.env` file in the root of your project with the following format:
+
+```
+# Neon Auth environment variables for Next.js
+NEXT_PUBLIC_STACK_PROJECT_ID=
+NEXT_PUBLIC_STACK_PUBLISHABLE_CLIENT_KEY=
+STACK_SECRET_SERVER_KEY=
+
+# Database owner connection string
+DATABASE_URL=
+```
